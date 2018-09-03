@@ -184,10 +184,10 @@ th {
         width: 100%;
     }
 
-    button.navbar-toggler {
+    /* button.navbar-toggler {
         position: absolute;
        right: 0;
-    }
+    } */
 
     .collapse, .navbar-collapse {
         text-align: center;
@@ -198,5 +198,15 @@ th {
         margin-right: auto;
         margin-left: auto;
         width: 100%;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .jumbotron {
+        height: 85vh;
     }
 }
