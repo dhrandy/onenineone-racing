@@ -140,6 +140,14 @@ footer a {
     color: yellow;
 }
 
+.footer {
+    border-bottom: solid 1px yellow;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+}
+
+
+
 @media only screen and (max-width: 767px) {
     #frank {
         position: initial;
