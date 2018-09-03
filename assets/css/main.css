@@ -55,10 +55,9 @@ body {
 }
 
 #frank {
-    width: 350px;
     position: absolute;
     right: 0px;
-    width: 300px;
+    width: 260px;
     border: 1px solid yellow;
     padding: 10px;
 }
@@ -85,6 +84,10 @@ hr {
 
 article {
     margin-bottom: 50px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
 }
 
 
@@ -127,7 +130,13 @@ th {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 790px) {
+    .jumbotron {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     #frank {
         position: initial;
     }
