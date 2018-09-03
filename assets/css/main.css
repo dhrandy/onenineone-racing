@@ -130,9 +130,11 @@ th {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 790px) {
-    .jumbotron {
-        height: 90vh;
+
+
+@media only screen and (max-width: 500px) { 
+    .navbar-brand {
+        font-size: 24px;
     }
 }
 
@@ -202,6 +204,12 @@ th {
 
     .navbar-dark .navbar-nav .nav-link {
         color: white;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .jumbotron {
+        height: 90vh;
     }
 }
 
