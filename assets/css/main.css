@@ -183,11 +183,6 @@ footer a {
     }
 
     .navbar-brand {
-        margin-top: 10px;
-        font-weight: bold;
-        border: solid white 1px;
-        padding: 3px 12px 3px 12px;
-        border-radius: 4px;
         font-size: 25px;
     }
 
@@ -196,15 +191,10 @@ footer a {
         width: 100%;
     }
 
-    /* button.navbar-toggler {
-        position: absolute;
-       right: 0;
-    } */
-
-    .collapse, .navbar-collapse {
+    /* .collapse, .navbar-collapse {
         text-align: center;
         font-size: 30px;
-    }
+    } */
 
     #frank {
         margin-right: auto;
@@ -220,6 +210,13 @@ footer a {
 @media only screen and (max-width: 790px) {
     .jumbotron {
         height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .collapse, .navbar-collapse {
+        text-align: center;
+        font-size: 30px;
     }
 }
 
