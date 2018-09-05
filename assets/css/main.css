@@ -157,7 +157,19 @@ footer a {
 /* Photo Gallery */
 .owl-next, .owl-prev {
     font-size: 40px !important;
+    text-decoration: none !important;
+    visibility: hidden;
 }
+
+.owl-nav {
+    height: 15px;
+}
+
+/* .owl-next hover {
+    text-decoration: none !important;
+    background-color: blue !important;
+    pointer-events: none;
+} */
 
 @media only screen and (max-width: 767px) {
     #frank {
