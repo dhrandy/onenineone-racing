@@ -75,7 +75,11 @@ hr {
 }
 
 .driver-margin {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#schedule .driver-margin {
+    margin-bottom: 10px;
 }
 
 .info {
@@ -148,6 +152,11 @@ footer a {
     border-bottom: solid 1px yellow;
     margin-bottom: 0;
     padding-bottom: 3px;
+}
+
+/* Photo Gallery */
+.owl-next, .owl-prev {
+    font-size: 40px !important;
 }
 
 @media only screen and (max-width: 767px) {
