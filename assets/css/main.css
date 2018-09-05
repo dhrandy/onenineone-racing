@@ -20,11 +20,17 @@ body {
 }
 
 .navbar-brand {
+    font-family: 'Agency FB', arial;
     font-weight: bold;
     border: solid white 1px;
     padding: 3px 12px 3px 12px;
     border-radius: 5px;
     font-size: 30px;
+    -webkit-transform:scale(1.5, 1.0);
+-moz-transform:scale(1.5, 1.0);
+-ms-transform:scale(1.5, 1.0);
+-o-transform:scale(1.5, 1.0);
+transform:scale(1.5,1.0);
 }
 
 .div-title {
