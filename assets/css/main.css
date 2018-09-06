@@ -263,6 +263,7 @@ footer a {
 
   .navbar-brand {
     font-size: 22px;
+    padding: 6px 44px 2px 44px;
   }
 
   /* .collapse, .navbar-collapse {
