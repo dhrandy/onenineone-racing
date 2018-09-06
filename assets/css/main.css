@@ -1,3 +1,8 @@
+@font-face {
+  font-family: agency;
+  src: url(../fonts/agency.ttf);
+}
+
 * {
   color: white;
 }
@@ -20,12 +25,13 @@ body {
 }
 
 .navbar-brand {
-  font-family: "Agency FB", arial;
+  font-family: agency, arial;
   /* font-weight: bold; */
   border: solid white 1px;
   padding: 10px 44px 2px 44px;
   border-radius: 5px;
   font-size: 30px;
+  margin-top: 15px;
 }
 
 #one-nine-one {
@@ -51,6 +57,10 @@ body {
 
 .fab {
   margin-left: 4px;
+}
+
+.fab:hover {
+  color: yellow;
 }
 
 .bg-dark {
@@ -161,6 +171,7 @@ th {
   right:  60px;
   top: 4px;
   font-size: 19px;
+  z-index: 1;
 }
 
 .navbar-expand-lg .navbar-collapse  {
