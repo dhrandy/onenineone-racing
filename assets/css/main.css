@@ -1,6 +1,9 @@
 @font-face {
   font-family: agency;
-  src: url(../fonts/agency.ttf);
+  src: url("../fonts/agency.ttf") format("truetype");
+  src: url("../fonts/Agency.eot"),
+      url("../fonts/Agency.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Agency.woff") format("woff");
 }
 
 * {
