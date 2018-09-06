@@ -295,7 +295,7 @@ footer a {
 
 @media only screen and (max-width: 790px) {
   .jumbotron {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
