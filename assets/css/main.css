@@ -16,7 +16,7 @@ body {
 
 .jumbotron {
   background-image: url(../imgs/bg3.jpg);
-  height: 95vh;
+  height: 100vh;
   background-position: center center;
   background-size: cover;
   padding-top: 0px;
@@ -347,11 +347,11 @@ footer a {
   } */
 }
 
-@media only screen and (max-width: 790px) {
+/* @media only screen and (max-width: 790px) {
   .jumbotron {
     height: 90vh;
   }
-}
+} */
 
 @media only screen and (max-width: 989px) {
   .collapse,
@@ -361,8 +361,8 @@ footer a {
   }
 }
 
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 1080px) {
   .jumbotron {
     height: 95vh;
   }
-}
+} */
