@@ -282,6 +282,8 @@ footer a {
   }
 }
 
+
+
 @media only screen and (max-width: 767px) {
   #frank {
     position: initial;
@@ -324,13 +326,13 @@ footer a {
   }
 
   .navbar-brand {
-    font-size: 20px;
-    padding: 6px 44px 2px 44px;
-    line-height: 22px;
+    font-size: 39px;
+    padding: 11px 47px 1px 47px;
+    line-height: 32px;
   }
 
   .div-title {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   /* .collapse, .navbar-collapse {
@@ -364,6 +366,18 @@ footer a {
     height: 90vh;
   }
 } */
+
+@media only screen and (max-width: 361px) {
+  .navbar-brand {
+    font-size: 26px;
+    padding: 6px 40px 2px 40px;
+    line-height: 22px;
+  }
+
+  .div-title {
+    font-size: 16px;
+  }
+}
 
 @media only screen and (max-width: 989px) {
   .collapse,
