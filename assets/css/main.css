@@ -35,9 +35,7 @@ body {
   border: solid white 2px;
   padding: 12px 52px 0px 52px;
   border-radius: 5px;
-  font-size: 44px;
   margin-top: 15px;
-  line-height: 38px;
 }
 
 #one-nine-one {
@@ -46,6 +44,8 @@ body {
   -ms-transform: scale(1.5, 1.2);
   -o-transform: scale(1.5, 1.2);
   transform: scale(1.5, 1.2);
+  line-height: 1;
+  font-size: 39px;
 }
 
 .div-title {
@@ -327,8 +327,7 @@ footer a {
 
   .navbar-brand {
     font-size: 39px;
-    padding: 11px 47px 1px 47px;
-    line-height: 32px;
+    padding: 5px 47px 1px 47px;
   }
 
   .div-title {
@@ -370,12 +369,11 @@ footer a {
 @media only screen and (max-width: 361px) {
   .navbar-brand {
     font-size: 26px;
-    padding: 6px 40px 2px 40px;
-    line-height: 22px;
+    padding: 5px 40px 2px 40px;
   }
 
   .div-title {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 
