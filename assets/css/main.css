@@ -183,6 +183,13 @@ th {
   z-index: 1;
 }
 
+.coming-soon {
+  border: solid 1px;
+  padding: 150px;
+  font-size: 30px;
+  text-align: center;
+}
+
 /* .navbar-expand-lg .navbar-collapse  {
   margin-top: 15px;
 } */
