@@ -14,11 +14,26 @@ body {
   background-color: #071721;
 }
 
+.top {
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  height: 100px;
+  padding: 28px;
+  color: yellow;
+}
+
+.top a {
+  color: yellow;
+}
+
 .jumbotron {
   background-image: url(../imgs/bg4.jpg);
   height: 100vh;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 0px;
   background-attachment: fixed;
   position: relative;
