@@ -207,6 +207,10 @@ footer a {
   color: yellow;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .footer {
   border-bottom: solid 1px yellow;
   margin-bottom: 0;
