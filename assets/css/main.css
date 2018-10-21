@@ -1,3 +1,4 @@
+/*///////// General //////////*/
 * {
   color: white;
 }
@@ -5,6 +6,16 @@
 body {
   background-color: #071721;
 }
+
+.center {
+  text-align: center;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+/*///////// Top Sponsor Section //////////*/
 
 .top {
   margin: auto;
@@ -21,6 +32,8 @@ body {
   color: yellow;
 }
 
+/*///////// Header/Title Section //////////*/
+
 .jumbotron {
   background-image: url(../imgs/bg4.jpg);
   height: 100vh;
@@ -32,26 +45,17 @@ body {
   padding: 2px;
 }
 
-
 .jumbotron a {
   color: white;
 }
+
+/*///////// One Nine One Motorsports Logo //////////*/
 
 #one-nine-one {
   width: 300px;
 }
 
-.div-title {
-  font-size: 21px;
-  color: yellow;
-  text-align: center;
-  -webkit-transform: scale(1.6, 0.8);
-  -moz-transform: scale(1.6, 0.8);
-  -ms-transform: scale(1.6, 0.8);
-  -o-transform: scale(1.6, 0.8);
-  transform: scale(1.6, 0.8);
-  /* padding-bottom: 7px; */
-}
+/*///////// Social Icons //////////*/
 
 .fab {
   margin-left: 4px;
@@ -60,6 +64,8 @@ body {
 .fab:hover {
   color: yellow;
 }
+
+/*///////// Navigation //////////*/
 
 .bg-dark {
   background-color: rgba(0, 0, 0, 0) !important;
@@ -77,9 +83,7 @@ body {
   text-transform: uppercase;
 }
 
-.center {
-  text-align: center;
-}
+/*///////// About Section //////////*/
 
 #frank {
   position: absolute;
@@ -109,6 +113,8 @@ hr {
   margin-bottom: 30px;
 }
 
+/*///////// Schedule Section //////////*/
+
 #schedule .driver-margin {
   margin-bottom: 10px;
 }
@@ -117,18 +123,10 @@ hr {
   margin-left: 40px;
 }
 
-article {
-  margin-bottom: 100px;
-}
-
 .col-md-4 {
   margin-bottom: 20px;
 }
 
-/* Track Table */
-/* tr:nth-child(even) {
-    background: rgb(221, 221, 221)
-} */
 table {
   border-collapse: collapse;
 }
@@ -377,4 +375,27 @@ footer a {
     text-align: center;
     font-size: 30px;
   }
+}
+
+.lead {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.lead, .lead-not-found {
+font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.lead-not-found {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.error-page-color a {
+  color: yellow;
 }
