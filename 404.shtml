@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div><span class="uxicon uxicon-alert"></span></div>
-                    <h1 class="lead-not-found">File not found (404 error)</h1>
+                    <h1 class="lead-not-found">Oops... File not found (404 error)</h1>
                 </div>
             </div>
             <div class="row">
