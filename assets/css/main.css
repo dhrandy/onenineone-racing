@@ -1,11 +1,3 @@
-@font-face {
-  font-family: agency;
-  src: url("../fonts/agency.ttf") format("truetype");
-  src: url("../fonts/Agency.eot"),
-    url("../fonts/Agency.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Agency.woff") format("woff");
-}
-
 * {
   color: white;
 }
@@ -190,14 +182,6 @@ th {
   text-align: center;
 }
 
-/* .navbar-expand-lg .navbar-collapse  {
-  margin-top: 15px;
-} */
-
-/* .navbar-toggler {
-margin-top: 34px;
-} */
-
 footer {
   text-align: center;
   font-size: 12px;
@@ -235,12 +219,6 @@ footer a {
   overflow: hidden;
   max-height: 100%;
 }
-
-/* .owl-next hover {
-    text-decoration: none !important;
-    background-color: blue !important;
-    pointer-events: none;
-} */
 
 /* Scroll Arrow */
 #section05 {
@@ -358,11 +336,6 @@ footer a {
   margin-top: 10px;
 }
 
-  /* .collapse, .navbar-collapse {
-        text-align: center;
-        font-size: 30px;
-    } */
-
   #frank {
     margin-right: auto;
     margin-left: auto;
@@ -383,16 +356,7 @@ footer a {
     padding: 97px;
   }
 
-  /* .navbar-expand-lg .navbar-collapse  {
-    margin-top: 15px;
-  } */
 }
-
-/* @media only screen and (max-width: 790px) {
-  .jumbotron {
-    height: 90vh;
-  }
-} */
 
 @media only screen and (max-width: 361px) {
   .navbar-brand {
@@ -404,8 +368,6 @@ footer a {
     font-size: 20px;
   }
 
-
-
 }
 
 @media only screen and (max-width: 989px) {
@@ -415,9 +377,3 @@ footer a {
     font-size: 30px;
   }
 }
-
-/* @media screen and (min-width: 1080px) {
-  .jumbotron {
-    height: 95vh;
-  }
-} */
