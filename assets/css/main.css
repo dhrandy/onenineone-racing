@@ -31,13 +31,14 @@ body {
 .jumbotron {
   background-image: url(../imgs/bg4.jpg);
   height: 100vh;
-  background-position: center center;
-  background-size: cover;
+  width: 100%;
+  min-width: 100%;
   background-repeat: no-repeat;
-  padding-top: 0px;
-  background-attachment: fixed;
-  position: relative;
+  background-size: cover; 
+  background-position: center center;
+  padding: 2px;
 }
+
 
 .jumbotron a {
   color: white;
@@ -295,6 +296,11 @@ footer a {
 
 
 @media only screen and (max-width: 767px) {
+
+  .jumbotron {
+    background-image: url(../imgs/bg4ipad.jpg);
+  }
+
   #frank {
     position: initial;
   }
