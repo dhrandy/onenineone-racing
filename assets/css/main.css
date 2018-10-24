@@ -74,7 +74,7 @@ article {
   color: yellow !important;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
   color: yellow;
 }
 
@@ -89,9 +89,11 @@ article {
   bottom: 65px;
   left: 50%;
 }
+
 #section05 a {
   padding-top: 70px;
 }
+
 #section05 a span {
   position: absolute;
   top: 0;
@@ -107,27 +109,33 @@ article {
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
 }
+
 @-webkit-keyframes sdb05 {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
 }
+
 @keyframes sdb05 {
   0% {
     transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
@@ -233,6 +241,7 @@ th {
 }
 
 /*///////// Photo Gallery //////////*/
+
 .owl-next,
 .owl-prev {
   font-size: 40px !important;
@@ -276,18 +285,61 @@ footer a {
 
 @media only screen and (max-width: 767px) {
 
+  /*///////// Header/Title Section //////////*/
+
   .jumbotron {
     background-attachment: scroll;
   }
 
+  #one-nine-one {
+    width: 225px;
+    margin-top: 10px;
+  }
+
+  /*///////// Navigation //////////*/
+
+  .navbar {
+    width: 50px;
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 39px;
+    padding: 5px 47px 1px 47px;
+  }
+
+  a.navbar-brand {
+    padding: 0px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+
+  .al-right {
+    bottom: 15px;
+    right: 30px;
+    font-size: 22px;
+  }
+
+  /*///////// About Section //////////*/
+
   #frank {
     position: initial;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
   }
 
   .frank-pic {
     margin-bottom: 20px;
     margin-top: 0px;
   }
+
+  /*///////// Schedule Section //////////*/
 
   td {
     width: 150px;
@@ -312,48 +364,6 @@ footer a {
     margin-bottom: 20px;
   }
 
-  .navbar {
-    width: 50px;
-    padding-left: 0;
-    padding-top: 0;
-    position: relative;
-    width: 100%;
-  }
-
-  .navbar-brand {
-    font-size: 39px;
-    padding: 5px 47px 1px 47px;
-  }
-
-  .div-title {
-    font-size: 19px;
-  }
-
-  a.navbar-brand {
-    padding: 0px;
-}
-
-  #one-nine-one {
-  width: 225px;
-  margin-top: 10px;
-}
-
-  #frank {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-  }
-
-  .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-
-  .al-right {
-    bottom: 15px;
-    right: 30px;
-    font-size: 22px;
-  }
-
   .coming-soon {
     padding: 97px;
   }
@@ -361,33 +371,32 @@ footer a {
 }
 
 @media only screen and (max-width: 361px) {
+  
+  /*///////// Navigation //////////*/  
+
   .navbar-brand {
     font-size: 26px;
     padding: 5px 40px 2px 40px;
   }
 
-  .div-title {
-    font-size: 20px;
-  }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .collapse,
-  .navbar-collapse {
-    text-align: center;
-    font-size: 30px;
-}
+
+/*///////// Header/Title Section //////////*/
 
 .jumbotron {
   background-attachment: scroll;
 }
+
+/*///////// Navigation //////////*/  
+
+  .collapse,
+  .navbar-collapse {
+    text-align: center;
+    font-size: 30px;
+  }
 }
-
-/* @media only screen and (max-width: 989px) {
-  
-  } */
-
 
 /*///////// Error Page //////////*/
 
@@ -397,8 +406,9 @@ footer a {
   margin-bottom: 20px;
 }
 
-.lead, .lead-not-found {
-font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+.lead,
+.lead-not-found {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
