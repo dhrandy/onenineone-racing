@@ -1,0 +1,100 @@
+{
+    "tracks":[
+        {
+            "id": 1,
+            "track":"Sumter Speedway",
+            "location": "Sumter, SC",
+            "date": "4/27"
+    },
+    {
+            "id":2,
+            "track":"Travelers Rest Speedway",
+            "location": "Travelers Rest, SC",
+            "date": "5/11"
+    },
+    {
+            "id":3,
+            "track":"Harris Speedway",
+            "location":"Harris, NC",
+            "date": "5/18"
+    },
+        {
+            "id":4,
+            "track":"311 Speedway",
+            "location":"Pine Hall, NC",
+            "date": "6/08"
+    },
+        {
+            "id":5,
+            "track":"Carolina Speedway",
+            "location":"Gastonia, NC",
+            "date": "6/21"
+    },
+        {
+            "id":6,
+            "track":"Cherokee Speedway",
+            "location":"Gaffney, SC",
+            "date": "6/22"
+    },
+        {
+            "id":7,
+            "track":"Lake View Motor Speedway",
+            "location":"Nichols, SC",
+            "date": "7/06"
+    },
+        {
+            "id":8,
+            "track":"Friendship Speedway",
+            "location":"Elkin, NC",
+            "date": "7/13"
+    },
+        {
+            "id":9,
+            "track":"311 Speedway",
+            "location":"Pine Hall, NC",
+            "date": "7/27"
+    },
+        {
+            "id":10,
+            "track":"Laurens county Speedway",
+            "location":"Laurens, SC",
+            "date": "8/03"
+    },
+        {
+            "id":11,
+            "track":"Harris Speedway",
+            "location":"Harris, NC",
+            "date": "8/10"
+    },
+        {
+            "id":12,
+            "track":"Sumter Speedway",
+            "location": "Sumter, SC",
+            "date": "8/24"
+    },
+        {
+            "id":13,
+            "track":"Lake View Motor Speedway",
+            "location":"Nichols, SC",
+            "date": "9/07"
+    },
+        {
+            "id":14,
+            "track":"Fayetteville Motor Speedway",
+            "location":"Fayetteville, NC",
+            "date": "9/21"
+    },
+        {
+            "id":15,
+            "track":"311 Speedway",
+            "location":"Pine Hall, NC",
+            "date": "9/27"
+    },
+        {
+            "id":16,
+            "track":"311 Speedway",
+            "location":"Pine Hall, NC",
+            "date": "9/28"
+    }
+    ]
+    }

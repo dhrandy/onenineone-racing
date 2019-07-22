@@ -1,5 +1,5 @@
 $.getJSON(
-    "https://www.randy-gentry.com/jsontest/assets/json/tracks.json",
+    "./assets/js/tracks.json",
     function(data) {
         
       //Only change the following line to how many races you have in the json file.
