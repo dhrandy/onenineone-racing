@@ -1,425 +1,409 @@
 /*///////// General //////////*/
+
 * {
-  color: white;
+    color: white;
 }
 
 body {
-  background-color: #071721;
+    background-color: #071721;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 article {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
+
 
 /*///////// Top Sponsor Section //////////*/
 
 .top {
-  margin: auto;
-  text-align: center;
-  font-weight: bold;
-  font-size: 24px;
-  height: 69px;
-  padding: 14px;
-  color: yellow;
-  border-bottom: 1px solid yellow;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    height: 69px;
+    padding: 14px;
+    color: yellow;
+    border-bottom: 1px solid yellow;
 }
 
 .top a {
-  color: yellow;
+    color: yellow;
 }
+
 
 /*///////// Header/Title Section //////////*/
 
 .jumbotron {
-  background-image: url(../imgs/bg4.jpg);
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 2px;
+    background-image: url(../imgs/bg4.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
 }
 
 .jumbotron a {
-  color: white;
+    color: white;
 }
+
 
 /*///////// One Nine One Motorsports Logo //////////*/
 
 #one-nine-one {
-  width: 300px;
+    width: 300px;
 }
+
 
 /*///////// Social Icons //////////*/
 
 .fab {
-  margin-left: 4px;
+    margin-left: 4px;
 }
 
 .fab:hover {
-  color: yellow;
+    color: yellow;
 }
+
 
 /*///////// Navigation //////////*/
 
 .bg-dark {
-  background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .navbar-nav .nav-link:hover {
-  color: yellow !important;
+    color: yellow !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
-  color: yellow;
+    color: yellow;
 }
 
 .nav-link {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 
 /*///////// Scroll Arrow //////////*/
 
 #section05 {
-  position: absolute;
-  bottom: 65px;
-  left: 50%;
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
 }
 
 #section05 a {
-  padding-top: 70px;
+    padding-top: 70px;
 }
 
 #section05 a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb05 1.5s infinite;
-  animation: sdb05 1.5s infinite;
-  box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
 }
 
 @-webkit-keyframes sdb05 {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
 }
 
 @keyframes sdb05 {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
 }
+
 
 /*///////// About Section //////////*/
 
 #frank {
-  position: absolute;
-  right: 0px;
-  width: 260px;
-  border: 1px solid yellow;
-  padding: 10px;
+    position: absolute;
+    right: 0px;
+    width: 260px;
+    border: 1px solid yellow;
+    padding: 10px;
 }
 
 .frank-pic {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 hr {
-  width: 70px;
-  align-content: center;
-  background-color: yellow;
-  border: 0;
-  height: 5px;
+    width: 70px;
+    align-content: center;
+    background-color: yellow;
+    border: 0;
+    height: 5px;
 }
 
 .driver-margin {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 
 /*///////// Schedule Section //////////*/
 
 #schedule .driver-margin {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .info {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 
 .col-md-4 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 tr {
-  border: solid;
-  border-width: 1px 0;
-  color: yellow;
+    border: solid;
+    border-width: 1px 0;
+    color: yellow;
 }
 
 tr:first-child {
-  border-top: none;
+    border-top: none;
 }
 
 tr:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 td {
-  width: 150px;
-  padding: 20px 40px 20px 40px;
+    width: 150px;
+    padding: 20px 40px 20px 40px;
 }
 
 th {
-  width: 190px;
-  text-align: left;
-  padding: 20px 40px 20px 40px;
-  font-size: 20px;
+    width: 190px;
+    text-align: left;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
 }
 
 .table-center {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .third-article {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .al-right {
-  position: absolute;
-  bottom: 35px;
-  right: 50px;
-  font-size: 30px;
-  z-index: 1;
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    font-size: 30px;
+    z-index: 1;
 }
 
 .coming-soon {
-  border: solid 1px;
-  padding: 150px;
-  font-size: 30px;
-  text-align: center;
+    border: solid 1px;
+    padding: 150px;
+    /* Changing due to large font size, was 30 */
+    font-size: 20px;
+    text-align: center;
 }
+
 
 /*///////// Photo Gallery //////////*/
 
 .owl-next,
 .owl-prev {
-  font-size: 40px !important;
-  text-decoration: none !important;
-  visibility: hidden;
+    font-size: 40px !important;
+    text-decoration: none !important;
+    visibility: hidden;
 }
 
 .owl-nav {
-  height: 15px;
+    height: 15px;
 }
 
 .owl-carousel {
-  overflow: hidden;
-  max-height: 100%;
+    overflow: hidden;
+    max-height: 100%;
 }
+
 
 /*///////// Footer Section //////////*/
 
 footer {
-  text-align: center;
-  font-size: 12px;
-  padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
 }
 
 footer a {
-  color: yellow;
+    color: yellow;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .footer {
-  border-bottom: solid 1px yellow;
-  margin-bottom: 0;
-  padding-bottom: 3px;
-  font-size: 18px;
+    border-bottom: solid 1px yellow;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    font-size: 18px;
 }
+
 
 /*///////// Media Queries //////////*/
 
 @media only screen and (max-width: 767px) {
-
-  /*///////// Header/Title Section //////////*/
-
-  .jumbotron {
-    background-attachment: scroll;
-  }
-
-  #one-nine-one {
-    width: 225px;
-    margin-top: 10px;
-  }
-
-  /*///////// Navigation //////////*/
-
-  .navbar {
-    width: 50px;
-    padding-left: 0;
-    padding-top: 0;
-    position: relative;
-    width: 100%;
-  }
-
-  .navbar-brand {
-    font-size: 39px;
-    padding: 5px 47px 1px 47px;
-  }
-
-  a.navbar-brand {
-    padding: 0px;
-  }
-
-  .navbar-dark .navbar-nav .nav-link {
-    color: white;
-  }
-
-  .al-right {
-    bottom: 15px;
-    right: 30px;
-    font-size: 22px;
-  }
-
-  /*///////// About Section //////////*/
-
-  #frank {
-    position: initial;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-  }
-
-  .frank-pic {
-    margin-bottom: 20px;
-    margin-top: 0px;
-  }
-
-  /*///////// Schedule Section //////////*/
-
-  td {
-    width: 150px;
-    padding: 20px 15px 20px 15px;
-    text-align: center;
-  }
-
-  th {
-    width: 190px;
-    text-align: left;
-    padding: 15px 20px 20px 15px;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .col-6 {
-    margin-bottom: 20px;
-  }
-
-  .coming-soon {
-    padding: 97px;
-  }
-
+    /*///////// Header/Title Section //////////*/
+    .jumbotron {
+        background-attachment: scroll;
+    }
+    #one-nine-one {
+        width: 225px;
+        margin-top: 10px;
+    }
+    /*///////// Navigation //////////*/
+    .navbar {
+        width: 50px;
+        padding-left: 0;
+        padding-top: 0;
+        position: relative;
+        width: 100%;
+    }
+    .navbar-brand {
+        font-size: 39px;
+        padding: 5px 47px 1px 47px;
+    }
+    a.navbar-brand {
+        padding: 0px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+    }
+    .al-right {
+        bottom: 15px;
+        right: 30px;
+        font-size: 22px;
+    }
+    /*///////// About Section //////////*/
+    #frank {
+        position: initial;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    .frank-pic {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    /*///////// Schedule Section //////////*/
+    td {
+        width: 150px;
+        padding: 20px 15px 20px 15px;
+        text-align: center;
+    }
+    th {
+        width: 190px;
+        text-align: left;
+        padding: 15px 20px 20px 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .col-6 {
+        margin-bottom: 20px;
+    }
+    .coming-soon {
+        padding: 97px;
+    }
 }
 
 @media only screen and (max-width: 361px) {
-  
-  /*///////// Navigation //////////*/  
-
-  .navbar-brand {
-    font-size: 26px;
-    padding: 5px 40px 2px 40px;
-  }
-
+    /*///////// Navigation //////////*/
+    .navbar-brand {
+        font-size: 26px;
+        padding: 5px 40px 2px 40px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-/*///////// Header/Title Section //////////*/
-
-.jumbotron {
-  background-attachment: scroll;
+    /*///////// Header/Title Section //////////*/
+    .jumbotron {
+        background-attachment: scroll;
+    }
+    /*///////// Navigation //////////*/
+    .collapse,
+    .navbar-collapse {
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
-/*///////// Navigation //////////*/  
-
-  .collapse,
-  .navbar-collapse {
-    text-align: center;
-    font-size: 30px;
-  }
-}
 
 /*///////// Error Page //////////*/
 
 .lead {
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 20px;
 }
 
 .lead,
 .lead-not-found {
-  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .lead-not-found {
-  font-size: 48px;
-  font-weight: 300;
-  margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .error-page-color a {
-  color: yellow;
+    color: yellow;
 }
